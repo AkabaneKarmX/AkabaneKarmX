@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="320" viewBox="0 0 880 320" role="img" aria-label="Terminal boot log — AKABANEKARMX system dossier. Identity: Fortune Wuwu Marvellous. Role: software engineering student, Babcock University. Mounted stack: HTML, CSS, JavaScript, C++, Python.">
+  <title>AKABANEKARMX — identity dossier rev 2.6</title>
+  <style>
+    @media (prefers-reduced-motion: reduce) { .blink { animation: none; opacity: 1; } }
+    @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+    .blink { animation: blink 1.06s infinite; }
+  </style>
+  <defs>
+    <pattern id="scan" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect x="0" y="0" width="4" height="1" fill="#000000" opacity="0.35"/>
+    </pattern>
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.92  0 0 0 0 0.92  0 0 0 0 0.92  0 0 0 0.05 0"/>
+    </filter>
+    <radialGradient id="vig" cx="50%" cy="45%" r="80%">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.5"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="880" height="320" fill="#0A0A0A"/>
+
+  <!-- frame crosshairs -->
+  <g stroke="#3F3F3F" stroke-width="1">
+    <path d="M 20 28 H 36 M 28 20 V 36"/>
+    <path d="M 844 28 H 860 M 852 20 V 36"/>
+    <path d="M 20 296 H 36 M 28 288 V 304"/>
+    <path d="M 844 296 H 860 M 852 288 V 304"/>
+  </g>
+
+  <!-- top strip -->
+  <text x="40" y="27" font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="10" letter-spacing="2" fill="#EAEAEA">[ AKABANEKARMX ]</text>
+  <text x="836" y="27" text-anchor="end" font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="9" letter-spacing="1.5" fill="#5E5E5E">REV 2.6 · BUILD 2026.02</text>
+  <line x1="28" y1="40" x2="852" y2="40" stroke="#242424" stroke-width="1"/>
+
+  <!-- terminal panel -->
+  <rect x="28" y="56" width="824" height="196" fill="#0F0F0F" stroke="#2E2E2E" stroke-width="1"/>
+  <rect x="28" y="56" width="824" height="24" fill="#141414"/>
+  <line x1="28" y1="80" x2="852" y2="80" stroke="#2E2E2E" stroke-width="1"/>
+  <text x="46" y="72" font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="10" letter-spacing="0.5" fill="#9A9A9A">~/AkabaneKarmX/boot.sh — interactive session</text>
+  <text x="806" y="72" text-anchor="end" font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="9" letter-spacing="1" fill="#5E5E5E">PID 3141</text>
+  <rect x="812" y="64" width="8" height="8" fill="#E61919"/>
+  <rect x="824" y="64" width="8" height="8" fill="#0F0F0F" stroke="#555555" stroke-width="1"/>
+  <rect x="836" y="64" width="8" height="8" fill="#0F0F0F" stroke="#555555" stroke-width="1"/>
+
+  <!-- left column: identity log -->
+  <g font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="13">
+    <text x="52" y="110"><tspan fill="#E61919">&gt; </tspan><tspan fill="#9A9A9A">whoami</tspan><tspan fill="#3F3F3F">  →  </tspan><tspan fill="#EAEAEA" font-weight="600">fortune w. marvellous</tspan></text>
+    <text x="52" y="136"><tspan fill="#E61919">&gt; </tspan><tspan fill="#9A9A9A">role --list</tspan><tspan fill="#3F3F3F">  →  </tspan><tspan fill="#C7C7C7">software engineering student @ babcock university</tspan></text>
+    <text x="52" y="162"><tspan fill="#E61919">&gt; </tspan><tspan fill="#9A9A9A">build --status</tspan><tspan fill="#3F3F3F">  →  </tspan><tspan fill="#C7C7C7">still compiling</tspan></text>
+    <text x="52" y="188"><tspan fill="#E61919">&gt; </tspan><tspan fill="#E61919" class="blink">▮</tspan></text>
+  </g>
+
+  <!-- left column bottom meta -->
+  <text x="52" y="234" font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="9" letter-spacing="1" fill="#5E5E5E">AKABANEKARMX.EXE · UNIT / D-01</text>
+
+  <!-- barcode strip -->
+  <g fill="#EAEAEA">
+    <rect x="590" y="90"  width="3" height="110" opacity="0.55"/>
+    <rect x="597" y="113" width="7" height="87"  opacity="0.28"/>
+    <rect x="608" y="136" width="2" height="64"  opacity="0.42"/>
+    <rect x="614" y="111" width="4" height="89"  opacity="0.20"/>
+    <rect x="622" y="134" width="6" height="66"  opacity="0.35"/>
+    <rect x="632" y="109" width="2" height="91"  opacity="0.24"/>
+    <rect x="638" y="132" width="5" height="68"  opacity="0.48"/>
+    <rect x="647" y="107" width="3" height="93"  opacity="0.18"/>
+    <rect x="654" y="130" width="6" height="70"  opacity="0.40"/>
+    <rect x="664" y="105" width="2" height="95"  opacity="0.22"/>
+    <rect x="670" y="128" width="4" height="72"  opacity="0.30"/>
+    <rect x="678" y="103" width="7" height="97"  opacity="0.45"/>
+    <rect x="689" y="126" width="3" height="74"  opacity="0.20"/>
+    <rect x="696" y="101" width="4" height="99"  opacity="0.36"/>
+  </g>
+  <text x="590" y="222" font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="8" letter-spacing="1.5" fill="#5E5E5E">SYNC 5/5</text>
+
+  <!-- right column: stack manifest -->
+  <g font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="12">
+    <text x="840" y="106" text-anchor="end" fill="#5E5E5E" font-size="10" letter-spacing="1">STACK.MOUNT</text>
+    <text x="840" y="130" text-anchor="end"><tspan fill="#4AF626">[ x ]</tspan><tspan fill="#EAEAEA"> html/css/js</tspan></text>
+    <text x="840" y="152" text-anchor="end"><tspan fill="#4AF626">[ x ]</tspan><tspan fill="#EAEAEA"> c++</tspan></text>
+    <text x="840" y="174" text-anchor="end"><tspan fill="#4AF626">[ x ]</tspan><tspan fill="#EAEAEA"> python</tspan></text>
+  </g>
+  <g font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="10" letter-spacing="1">
+    <text x="840" y="212" text-anchor="end" fill="#5E5E5E"><tspan fill="#3F3F3F">SYS  </tspan><tspan fill="#9A9A9A">IDLE</tspan></text>
+    <text x="840" y="228" text-anchor="end" fill="#5E5E5E"><tspan fill="#3F3F3F">NET  </tspan><tspan fill="#9A9A9A">LOCAL</tspan></text>
+  </g>
+
+  <!-- macro strip -->
+  <text x="40" y="296" font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="40" font-weight="700" letter-spacing="-1" fill="#EAEAEA">AKABANEKARMX</text>
+  <rect x="336" y="262" width="12" height="40" fill="#E61919" class="blink"/>
+  <text x="364" y="296" font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="11" letter-spacing="3" fill="#5E5E5E">// DOSSIER.LIVE</text>
+  <text x="836" y="296" text-anchor="end" font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="9" letter-spacing="1.5" fill="#5E5E5E">© 2026 · ALL SYSCALLS RESERVED</text>
+
+  <!-- overlays -->
+  <rect x="28" y="80" width="824" height="172" fill="url(#scan)" opacity="0.14"/>
+  <rect x="0" y="0" width="880" height="320" fill="url(#vig)" opacity="0.55"/>
+  <rect x="0" y="0" width="880" height="320" filter="url(#noise)"/>
+</svg>

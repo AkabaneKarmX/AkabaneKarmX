@@ -1,18 +1,26 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Fortune Wuwu Marvellous, software engineering student at Babcock University" width="880">
+  <img src="assets/terminal.svg" alt="AKABANEKARMX terminal boot log — identity: Fortune Wuwu Marvellous. Role: software engineering student at Babcock University. Mounted stack: HTML, CSS, JavaScript, C++, Python." width="880">
 </picture>
 
-**Software Engineering Student at Babcock University**
+```text
+$ cat /var/lib/AkabaneKarmX/identity.db
 
-I build with HTML, CSS and JavaScript, and I work with C++ and Python.
+  ALIAS  :: AKABANEKARMX
+  ROLE   :: SOFTWARE ENGINEERING STUDENT // BABCOCK UNIVERSITY
+  STACK  :: HTML · CSS · JAVASCRIPT | C++ · PYTHON
+  HOST   :: GITHUB.COM/AKABANEKARMX
+```
 
-## Projects
+## // DEPLOYED_ARTIFACTS
 
-- **[EduMaster Quiz App](https://github.com/AkabaneKarmX/edumaster-quiz-app)**: an interactive quiz app with accounts, timed quiz sessions and a performance dashboard. Built as a COS 107 group project by Software Engineering Group B (Group 1). Tech: HTML, CSS, JavaScript.
-- **[Temperature Converter](https://github.com/AkabaneKarmX/temperature-converter)**: a small web app that converts temperatures between Celsius, Fahrenheit and Kelvin. Tech: HTML, CSS, JavaScript.
+- [`edumaster-quiz-app`](https://github.com/AkabaneKarmX/edumaster-quiz-app) — quiz engine with user accounts, timed sessions and a performance dashboard. `html/css/js` — cos 107, software engineering group b (group 1).
+- [`temperature-converter`](https://github.com/AkabaneKarmX/temperature-converter) — unit converter across celsius, fahrenheit and kelvin. `html/css/js`.
 
-## Contact
+## // CHANNELS
 
-- GitHub: [AkabaneKarmX](https://github.com/AkabaneKarmX)
-- For questions or collaboration, open an issue on any repository.
+- [`@AkabaneKarmX`](https://github.com/AkabaneKarmX) — direct line
+- packet routing — open an issue on any repository
+
+```text
+$ exit ── ▌
+```
