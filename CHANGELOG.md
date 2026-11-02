@@ -5,6 +5,12 @@
 ```text
 $ less /var/lib/AkabaneKarmX/CHANGELOG.log
 
+  [ REV 2.6.1 ] — 2026.11
+  :: artifact stills mounted — cam log initialized
+  :: cam01 → edumaster-quiz-app · runtime capture (local render, login state)
+  :: cam02 → temperature-converter · runtime capture (local render, default state)
+  :: treatment · phosphor grayscale + scanlines + grain, consolas telemetry strip
+
   [ REV 2.6 ] — 2026.11
   :: profile rebuilt as terminal dossier (crt telemetry)
   :: assets/banner-*.svg removed → assets/terminal.svg (single dark crt build)

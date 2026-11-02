@@ -16,6 +16,13 @@ $ cat /var/lib/AkabaneKarmX/identity.db
 - [`edumaster-quiz-app`](https://github.com/AkabaneKarmX/edumaster-quiz-app) — quiz engine with user accounts, timed sessions and a performance dashboard. `html/css/js` — cos 107, software engineering group b (group 1).
 - [`temperature-converter`](https://github.com/AkabaneKarmX/temperature-converter) — unit converter across celsius, fahrenheit and kelvin. `html/css/js`.
 
+<p align="center">
+  <img src="assets/still-cam01-edumaster.png" alt="runtime still — edumaster-quiz-app login screen, grayscale crt capture" width="760">
+</p>
+<p align="center">
+  <img src="assets/still-cam02-tempconv.png" alt="runtime still — temperature-converter interface, grayscale crt capture" width="760">
+</p>
+
 ## // CHANNELS
 
 - [`@AkabaneKarmX`](https://github.com/AkabaneKarmX) — direct line
