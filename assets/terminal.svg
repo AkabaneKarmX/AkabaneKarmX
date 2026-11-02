@@ -31,7 +31,7 @@
 
   <!-- top strip -->
   <text x="40" y="27" font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="10" letter-spacing="2" fill="#EAEAEA">[ AKABANEKARMX ]</text>
-  <text x="836" y="27" text-anchor="end" font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="9" letter-spacing="1.5" fill="#5E5E5E">REV 2.6 · BUILD 2026.02</text>
+  <text x="836" y="27" text-anchor="end" font-family="'Cascadia Mono',ui-monospace,Menlo,Consolas,'Courier New',monospace" font-size="9" letter-spacing="1.5" fill="#5E5E5E">REV 2.6 · BUILD 2026.11</text>
   <line x1="28" y1="40" x2="852" y2="40" stroke="#242424" stroke-width="1"/>
 
   <!-- terminal panel -->
