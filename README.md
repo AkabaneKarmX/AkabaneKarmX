@@ -17,10 +17,7 @@ $ cat /var/lib/AkabaneKarmX/identity.db
 - [`temperature-converter`](https://github.com/AkabaneKarmX/temperature-converter) — unit converter across celsius, fahrenheit and kelvin. `html/css/js`.
 
 <p align="center">
-  <img src="assets/still-cam01-edumaster.png" alt="runtime still — edumaster-quiz-app login screen, grayscale crt capture" width="760">
-</p>
-<p align="center">
-  <img src="assets/still-cam02-tempconv.png" alt="runtime still — temperature-converter interface, grayscale crt capture" width="760">
+  <img src="assets/artifact-rack.svg" alt="artifact rack — two mounted modules: edumaster-quiz-app and temperature-converter" width="880">
 </p>
 
 ## // CHANNELS

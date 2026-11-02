@@ -5,6 +5,11 @@
 ```text
 $ less /var/lib/AkabaneKarmX/CHANGELOG.log
 
+  [ REV 2.6.2 ] — 2026.11
+  :: cam log decommissioned — runtime stills removed (user veto: looked weird)
+  :: artifact-rack.svg mounted — storage enclosure, two bay modules w/ real specs
+  :: bay01 edumaster-quiz-app · bay02 temperature-converter · links stay in readme markup
+
   [ REV 2.6.1 ] — 2026.11
   :: artifact stills mounted — cam log initialized
   :: cam01 → edumaster-quiz-app · runtime capture (local render, login state)
